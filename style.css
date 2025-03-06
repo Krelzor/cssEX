@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    text-align: left;
+    background-color: aliceblue;
+    padding: 10px;
+}
+header h2{
+    margin: 5px;
+    background-color: rgb(225, 240, 253);
+    border: 1px solid black;
+}
+
