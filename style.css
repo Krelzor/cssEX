@@ -32,3 +32,9 @@ header{
     text-align: center;
     margin: 20px 0;
 }
+.articles article a{
+    text-decoration: none;
+    color: black;
+    background-color: #ccc;
+    padding: 5px;
+}
