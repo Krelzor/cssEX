@@ -4,9 +4,14 @@
     box-sizing: border-box;
 }
 header{
-    text-align: left;
-    background-color: aliceblue;
+    text-align: center;
+    background-color: rgba(54, 17, 17, 0);
     padding: 25px;
+    text-decoration: underline;
+    color: white;
+}
+body{
+    background-color: #333;
 }
 .container{
     width: 1366px;
@@ -26,6 +31,8 @@ header{
     width: 30%;
     margin-bottom: 20px;
     padding: 10px;
+    border: 1px solid #ccc;
+    color: #ccc;
 }
 .container h1{
     text-align: left;
@@ -33,11 +40,30 @@ header{
 }
 .articles article a{
     text-decoration: none;
-    color: black;
-    background-color: #ccc;
+    color: white;
+    background-color: #2c2c2c;
     padding: 5px;
 }
 .articles article a:hover{
     background-color: #333;
+    color: #000000;
+    text-decoration: underline;
+}
+#games{
+    background-color: #4415159f;
+    padding: 10px;
+}
+#games h1{
+    text-align: center;
     color: white;
+    background-color: #2c2c2c;
+}
+#music{
+    background-color: #441c1c;
+    padding: 5px;
+}
+#music h1{
+    text-align: center;
+    color: white;
+    background-color: #2c2c2c;
 }
