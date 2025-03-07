@@ -8,3 +8,30 @@ header{
     background-color: aliceblue;
     padding: 10px;
 }
+.container{
+    width: 1366px;
+    margin: auto 0;
+}
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.articles article img{
+    height: 200px;
+    align-items: center;
+    padding: 10px;
+}
+.articles article{
+    width: 30%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+.container h1{
+    text-align: center;
+    margin: 20px 0;
+}
+body{
+    align-items: center;
+}
